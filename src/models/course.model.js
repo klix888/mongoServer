@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
 
 const CourseSchema = new mongoose.Schema({
-    name: String,
-    points: Number
+    courseName: String,
+    coursePoints: Number
 });
 
 export default mongoose.model('Course', CourseSchema);
